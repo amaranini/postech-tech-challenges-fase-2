@@ -52,8 +52,8 @@ projeto-vrp/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/projeto-vrp.git
-cd projeto-vrp
+git clone https://github.com/amaranini/postech-tech-challenges-fase-2.git
+cd postech-tech-challenges-fase-2
 ```
 
 ### 2. Use Python 3.11
