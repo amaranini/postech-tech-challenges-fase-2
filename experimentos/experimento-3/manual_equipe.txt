@@ -1,0 +1,461 @@
+## MANUAL DE INSTRUÇÕES OPERACIONAIS - SAÚDE DA MULHER EM CAMPO
+
+**DATA:** 24/03/2026
+**VEÍCULO:** Capacidade 25 suprimentos (Verificado: 23 suprimentos a bordo)
+**EQUIPE:** [NOME DO MOTORISTA], [NOME DO ACOMPANHANTE/ENFERMEIRO]
+**CENTRAL DE APOIO (24h):** [TELEFONE DA CENTRAL]
+
+---
+
+### 1. BRIEFING GERAL DO DIA
+
+**Objetivo:** Garantir a entrega de suprimentos e o acompanhamento essencial a pacientes de saúde da mulher, com foco em emergências obstétricas e situações sensíveis, respeitando rigorosos protocolos de segurança e privacidade.
+
+**Resumo dos Tipos de Atendimento:**
+*   **3 Emergências Obstétricas:** Prioridade absoluta.
+*   **3 Casos de Violência Doméstica:** Exigem discrição máxima e protocolo especial.
+*   **4 Entregas de Medicamentos Hormonais:** Sendo 3 com requisito de cadeia fria rigoroso.
+*   **5 Atendimentos Pós-Parto:** Acompanhamento e suporte à puérpera e ao recém-nascido.
+
+**Alertas Prioritários:**
+1.  **EMERGÊNCIAS OBSTÉTRICAS (Paradas #01, #02, #03):** Requerem atendimento imediato e comunicação constante com a Central. O tempo de resposta é crucial para a vida da mãe e do bebê.
+2.  **VIOLÊNCIA DOMÉSTICA (Paradas #04, #05, #06):** A discrição é fundamental. Siga estritamente os protocolos especiais de cada parada para garantir a segurança e a confidencialidade da paciente.
+3.  **CADEIA FRIA (Paradas #07, #09, #10):** Os medicamentos devem ser mantidos na temperatura especificada sem interrupção. Falha na cadeia fria compromete a eficácia do tratamento e a segurança da paciente.
+
+**Checklist de Materiais (Antes da Saída - 7h00):**
+*   **Veículo:** Abastecido, revisado (pneus, freios, luzes).
+*   **Documentação:** CNH, documentos do veículo, crachás de identificação da equipe, formulários de registro.
+*   **Comunicação:** Celulares da equipe carregados, com créditos e números da Central de Apoio e Emergência. Carregador veicular.
+*   **Suprimentos:**
+    *   **23 unidades totais de suprimentos específicos da rota.** (Verificar e confirmar no carregamento)
+    *   **Bolsas térmicas:** Em número suficiente, limpas, com elementos de resfriamento (gelo gel/placas eutéticas) pré-condicionados.
+    *   **Termômetros:** Para monitoramento de temperatura dentro das bolsas térmicas.
+    *   **Kit de Biossegurança:** Luvas descartáveis, máscaras, álcool em gel 70%.
+    *   **Kit de Primeiros Socorros:** Básico para a equipe.
+*   **Materiais Administrativos:** Prancheta, canetas, cópias extras do manual e formulários.
+*   **Identificação:** Crachás visíveis (exceto quando o protocolo de discrição for acionado).
+
+---
+
+### 2. INSTRUÇÕES POR PARADA
+
+**PONTO DE PARTIDA:** Hospital Maternidade Vila Nova Cachoeirinha – Saída prevista: 7h00
+
+---
+
+#### PARADA #01 — EMERGÊNCIA OBSTÉTRICA
+*   **Local:** Paciente Ana Lima - Santana
+*   **Chegada Prevista:** 07h10 (Janela: 6h-10h)
+*   **Suprimentos:** 2 unidade(s)
+*   **Observação da Rota:** Gestante 38 semanas com contrações irregulares. Atendimento imediato.
+*   **Ações ao Chegar:**
+    *   Estacionar o veículo em local seguro e de fácil acesso para saída.
+    *   Identificar-se prontamente à paciente ou responsável.
+    *   Avaliar a situação da paciente com agilidade e sensibilidade.
+*   **Protocolos Específicos:**
+    *   Prioridade máxima: A condição de contrações irregulares em 38 semanas pode evoluir rapidamente.
+    *   Realizar avaliação inicial dos sinais vitais (se aplicável à sua função).
+    *   Explicar brevemente o propósito da visita e a necessidade de avaliação.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Estado geral da paciente (lucidez, dor, frequência das contrações).
+    *   Qualquer intercorrência ou mudança no quadro.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se houver intensificação das contrações, perda de líquido, sangramento, ou qualquer sinal de sofrimento fetal/materno.
+    *   **Central de Apoio (prioritário) ou SAMU (em caso de risco iminente de vida).**
+
+---
+
+#### PARADA #02 — EMERGÊNCIA OBSTÉTRICA
+*   **Local:** Paciente Carla Souza - Penha
+*   **Chegada Prevista:** 07h45 (Janela: 6h-9h)
+*   **Suprimentos:** 2 unidade(s)
+*   **Observação da Rota:** Sangramento pós-parto relatado por telefone. Prioridade máxima.
+*   **Ações ao Chegar:**
+    *   Rapidez na chegada e abordagem.
+    *   Apresentar-se de forma calma e empática.
+    *   Verificar a fonte e intensidade do sangramento.
+*   **Protocolos Específicos:**
+    *   Sangramento pós-parto é uma emergência grave. Aja com extrema rapidez.
+    *   Manter a paciente calma e em repouso.
+    *   Se houver acompanhante, orientá-lo a auxiliar no que for necessário.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Volume e características do sangramento.
+    *   Sinais de choque (palidez, suor frio, confusão mental).
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Qualquer volume significativo de sangramento, sinais de desmaio ou confusão.
+    *   **Central de Apoio (prioritário) ou SAMU (em caso de risco iminente de vida).**
+
+---
+
+#### PARADA #03 — EMERGÊNCIA OBSTÉTRICA
+*   **Local:** Paciente Fernanda Rocha - Itaquera
+*   **Chegada Prevista:** 08h16 (Janela: 7h-11h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** Pressão arterial elevada. Risco de pré-eclâmpsia.
+*   **Ações ao Chegar:**
+    *   Abordar a paciente com discrição e calma, explicando o propósito da visita (avaliação e suporte).
+    *   Solicitar permissão para aferir a pressão arterial e outros sinais vitais.
+*   **Protocolos Específicos:**
+    *   A pré-eclâmpsia é uma condição séria. Manter a paciente em repouso e sem estresse.
+    *   Realizar a aferição da pressão arterial de forma padronizada.
+    *   Indagar sobre outros sintomas (dor de cabeça, visão turva, dor abdominal).
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Valores da pressão arterial e frequência cardíaca.
+    *   Presença de quaisquer outros sintomas relacionados à pré-eclâmpsia.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se a pressão arterial estiver muito alta (ex: acima de 160/110 mmHg) ou houver sintomas graves.
+    *   **Central de Apoio (prioritário) ou SAMU (em caso de risco iminente de vida).**
+
+---
+
+#### PARADA #04 — VIOLÊNCIA DOMÉSTICA
+*   **Local:** Paciente Juliana Martins - Santo André
+*   **Chegada Prevista:** 10h00 (Janela: 10h-16h)
+*   **Suprimentos:** 2 unidade(s)
+*   **Observação da Rota:** PROTOCOLO ESPECIAL: Acompanhamento psicológico remoto durante a visita. Contato prévio com assistente social confirmado.
+*   **Ações ao Chegar:**
+    *   **DISCRIÇÃO ABSOLUTA.** Estacionar o veículo de forma discreta, se possível longe de olhares diretos para a residência.
+    *   Apresentar-se discretamente, sem mencionar o hospital ou o propósito da visita em voz alta, a menos que esteja a sós com a paciente.
+    *   Confirmar que o contato com a assistente social foi realizado e que o acompanhamento remoto está pronto.
+*   **Protocolos Específicos:**
+    *   **Prioridade:** Segurança da paciente e da equipe.
+    *   Manter a comunicação discreta, utilizando o acompanhamento psicológico remoto conforme orientação da Central.
+    *   Focar na escuta ativa e na oferta de suporte, evitando confrontos ou perguntas diretas sobre a violência se terceiros estiverem presentes.
+    *   Se possível, encontrar um momento a sós com a paciente.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Condição da paciente (física e emocional), sem julgamentos.
+    *   Presença de outras pessoas na casa.
+    *   Qualquer sinal de alerta ou risco para a paciente ou a equipe.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se houver qualquer indício de risco imediato, hostilidade por parte de terceiros, ou se a paciente expressar necessidade urgente de sair do local.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #05 — VIOLÊNCIA DOMÉSTICA
+*   **Local:** Paciente Beatriz Costa - Bom Retiro
+*   **Chegada Prevista:** 10h52 (Janela: 8h-14h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** PROTOCOLO ESPECIAL: Não identificar veículo. Bater discretamente. Aguardar resposta por até 3 minutos antes de contatar central.
+*   **Ações ao Chegar:**
+    *   **NÃO IDENTIFICAR O VEÍCULO:** Evite estacionar carros com logotipos visíveis. Se o veículo oficial for o único disponível, estacione a uma distância que não o associe diretamente à residência.
+    *   **BATER DISCRETAMENTE:** Sem campainha, se possível. Toque leve na porta ou campainha discreta.
+    *   Aguardar em uma posição que permita visibilidade da porta, mas sem chamar atenção.
+*   **Protocolos Específicos:**
+    *   **Máxima discrição:** A identidade da equipe e o propósito da visita devem ser ocultados de terceiros.
+    *   **Tempo de espera:** Respeitar o limite de 3 minutos. Se não houver resposta, não insista.
+    *   Se a paciente atender, use linguagem neutra e codificada, se instruído pela Central.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída (ou tentativa de contato).
+    *   Quem atendeu à porta (se alguém atendeu).
+    *   Sinais de alerta no ambiente (barulhos, movimento).
+    *   **REGISTRAR se a paciente atendeu e se a entrega foi realizada.**
+*   **Acionamento de Suporte:**
+    *   **Após 3 minutos sem resposta:** Contatar a Central para orientação sobre o próximo passo.
+    *   **Imediatamente:** Se houver qualquer sinal de perigo, agressão ou ameaça durante a tentativa de contato.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #06 — VIOLÊNCIA DOMÉSTICA
+*   **Local:** Paciente Daniela Ferreira - Lapa
+*   **Chegada Prevista:** 11h20 (Janela: 9h-15h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** PROTOCOLO ESPECIAL: Visita sob codinome 'entrega de farmácia'. Não mencionar hospital em caso de terceiros presentes.
+*   **Ações ao Chegar:**
+    *   Estacionar discretamente.
+    *   Ao abordar a residência, agir como um entregador de farmácia comum.
+    *   Se houver terceiros, usar a frase "entrega de farmácia" e não fazer menção ao hospital ou ao serviço de saúde.
+*   **Protocolos Específicos:**
+    *   Manter o codinome "entrega de farmácia" durante toda a interação, especialmente se houver terceiros.
+    *   Se for possível falar a sós com a paciente, explique o real propósito da visita em tom baixo e confidencial.
+    *   Focar na entrega dos suprimentos e na observação discreta do ambiente e da paciente.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Se o codinome foi utilizado e quem estava presente.
+    *   A condição da paciente e qualquer necessidade expressa por ela em particular.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se houver qualquer indício de risco para a paciente ou a equipe.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #07 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA
+*   **Local:** UBS Saúde da Mulher - Pinheiros
+*   **Chegada Prevista:** 11h45 (Janela: 7h-12h)
+*   **Suprimentos:** 3 unidade(s)
+*   **Observação da Rota:** Anticoncepcional injetável trimestral (lote 3 unidades). Receber apenas com a enfermeira Patrícia. Temperatura máxima: 25°C.
+*   **Ações ao Chegar:**
+    *   Identificar-se como equipe de logística hospitalar na recepção da UBS.
+    *   Solicitar contato com a enfermeira Patrícia.
+*   **Protocolos Específicos:**
+    *   **CADEIA FRIA CRÍTICA:** Antes de retirar o medicamento do veículo, verifique a temperatura interna da bolsa térmica. A temperatura não deve exceder 25°C.
+    *   Entregar as 3 unidades **exclusivamente** à enfermeira Patrícia.
+    *   A enfermeira Patrícia deve assinar o termo de recebimento.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Nome completo e assinatura da enfermeira Patrícia.
+    *   **Temperatura registrada na bolsa térmica no momento da entrega.**
+    *   Lote dos medicamentos entregues.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se a temperatura da bolsa térmica estiver acima de 25°C.
+    *   **Imediatamente:** Se a enfermeira Patrícia não estiver presente e não houver um procedimento de contingência claro da Central.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #08 — MEDICAMENTO HORMONAL
+*   **Local:** Clínica Feminina - Tatuapé
+*   **Chegada Prevista:** 12h23 (Janela: 9h-17h)
+*   **Suprimentos:** 2 unidade(s)
+*   **Observação da Rota:** Terapia de reposição hormonal. Entregar na recepção com assinatura.
+*   **Ações ao Chegar:**
+    *   Identificar-se como equipe de logística hospitalar.
+    *   Entregar os suprimentos na recepção.
+*   **Protocolos Específicos:**
+    *   Solicitar assinatura do funcionário da recepção no termo de recebimento.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Nome completo e assinatura do funcionário que recebeu.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se houver recusa no recebimento ou se a clínica estiver fechada dentro da janela de horário.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #09 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA
+*   **Local:** Paciente Roberta Alves - Vila Mariana
+*   **Chegada Prevista:** 12h54 (Janela: 10h-20h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** Hormônios para tratamento de SOP. Conservar em frio. Paciente trabalha até as 18h — preferência pela tarde.
+*   **Ações ao Chegar:**
+    *   Tentar contato com a paciente por telefone alguns minutos antes da chegada.
+    *   Identificar-se e informar sobre a entrega.
+*   **Protocolos Específicos:**
+    *   **CADEIA FRIA CRÍTICA:** Mantenha o medicamento em bolsa térmica refrigerada até o momento da entrega.
+    *   A entrega deve ser feita diretamente à paciente Roberta Alves.
+    *   Instruir a paciente sobre a importância de armazenar o medicamento em geladeira imediatamente.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Nome completo e assinatura da paciente Roberta Alves.
+    *   **Temperatura registrada na bolsa térmica no momento da entrega.**
+    *   Conferir se a paciente entendeu as instruções de armazenamento.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se a temperatura da bolsa térmica estiver comprometida.
+    *   **Imediatamente:** Se a paciente não estiver no local ou não puder receber, especialmente dada a observação de preferência pela tarde.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #10 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA
+*   **Local:** Paciente Helena Nascimento - Moema
+*   **Chegada Prevista:** 13h16 (Janela: 8h-18h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** Insulina + hormônios tireoidianos. Manter entre 2°C e 8°C. Usar bolsa térmica compartimento azul.
+*   **Ações ao Chegar:**
+    *   Tentar contato com a paciente por telefone alguns minutos antes da chegada.
+    *   Identificar-se e informar sobre a entrega.
+*   **Protocolos Específicos:**
+    *   **CADEIA FRIA CRÍTICA:** Utilizar a bolsa térmica do **compartimento azul**. A temperatura deve ser mantida rigorosamente entre 2°C e 8°C.
+    *   Entregar diretamente à paciente Helena Nascimento.
+    *   Enfatizar a importância da refrigeração imediata e contínua dos medicamentos.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Nome completo e assinatura da paciente Helena Nascimento.
+    *   **Temperatura registrada na bolsa térmica do compartimento azul no momento da entrega.**
+    *   Conferir se a paciente compreendeu a importância da manutenção da cadeia fria.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se a temperatura da bolsa térmica estiver fora da faixa de 2°C a 8°C.
+    *   **Imediatamente:** Se a paciente não estiver no local ou não puder receber.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #11 — PÓS-PARTO
+*   **Local:** Paciente Marina Santos - Brooklin
+*   **Chegada Prevista:** 13h37 (Janela: 8h-16h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** 21 dias pós-parto. Acompanhamento nutricional e vacinação do recém-nascido.
+*   **Ações ao Chegar:**
+    *   Abordar a paciente com cordialidade e empatia.
+    *   Confirmar a identidade da paciente e do recém-nascido.
+*   **Protocolos Específicos:**
+    *   Realizar o acompanhamento nutricional conforme protocolo (se sua função permitir).
+    *   Verificar o cartão de vacinação do recém-nascido e aplicar vacinas pendentes, se a equipe incluir profissional habilitado.
+    *   Oferecer suporte e sanar dúvidas sobre puerpério.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Condição geral da puérpera e do bebê.
+    *   Status da amamentação.
+    *   Vacinas aplicadas (com lote e validade).
+    *   Qualquer sinal de alerta ou necessidade de encaminhamento.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se a mãe ou o bebê apresentarem sinais de febre, prostração, icterícia grave, ou outras condições de saúde preocupantes.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #12 — PÓS-PARTO
+*   **Local:** Paciente Priscila Mendes - Campo Belo
+*   **Chegada Prevista:** 13h58 (Janela: 11h-19h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** 30 dias pós-parto. Consulta de retorno e coleta para exame.
+*   **Ações ao Chegar:**
+    *   Abordar a paciente com gentileza.
+    *   Confirmar o propósito da visita (consulta de retorno e coleta).
+*   **Protocolos Específicos:**
+    *   Realizar a consulta de retorno pós-parto (avaliação física, bem-estar emocional).
+    *   Realizar a coleta de material para exame conforme protocolo (se sua função permitir).
+    *   Orientar sobre a importância dos exames de rotina.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Estado de saúde da puérpera.
+    *   Coletas realizadas (tipo, data, hora, identificação).
+    *   Qualquer queixa ou dúvida da paciente.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se a paciente apresentar dor intensa, sangramento anormal, febre ou outros sintomas preocupantes.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #13 — PÓS-PARTO
+*   **Local:** Paciente Larissa Pereira - Jabaquara
+*   **Chegada Prevista:** 14h18 (Janela: 10h-18h)
+*   **Suprimentos:** 2 unidade(s)
+*   **Observação da Rota:** 15 dias pós-parto cesárea. Curativo e orientações sobre higiene da incisão.
+*   **Ações ao Chegar:**
+    *   Abordar a paciente com cuidado e atenção.
+    *   Informar sobre a necessidade de avaliação da incisão e curativo.
+*   **Protocolos Específicos:**
+    *   Realizar a avaliação da incisão cirúrgica (cesariana): verificar sinais de infecção (vermelhidão, inchaço, calor, dor, secreção).
+    *   Realizar a troca de curativo, se necessário, com técnica asséptica.
+    *   Fornecer orientações claras e detalhadas sobre a higiene adequada da incisão e sinais de alerta.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Condição da incisão (aspecto, cicatrização, sinais de infecção).
+    *   Curativo realizado (data, hora).
+    *   Compreensão da paciente sobre as orientações.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se houver sinais claros de infecção na incisão (pus, febre, dor intensa).
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #14 — PÓS-PARTO
+*   **Local:** Paciente Tatiane Gomes - Saúde
+*   **Chegada Prevista:** 14h40 (Janela: 9h-15h)
+*   **Suprimentos:** 2 unidade(s)
+*   **Observação da Rota:** 10 dias pós-parto gemelar. Apoio intensivo à amamentação.
+*   **Ações ao Chegar:**
+    *   Abordar a paciente com muita sensibilidade, considerando o desafio de um pós-parto gemelar.
+    *   Oferecer ajuda e suporte para a amamentação.
+*   **Protocolos Específicos:**
+    *   Focar no apoio intensivo à amamentação: verificar a pega dos bebês, posição, frequência, produção de leite.
+    *   Oferecer orientações práticas para a amamentação de gêmeos.
+    *   Verificar o bem-estar físico e emocional da mãe, que pode estar mais sobrecarregada.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Status da amamentação dos dois bebês.
+    *   Sinais de ingurgitamento mamário ou mastite na mãe.
+    *   Nível de fadiga e humor da puérpera.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se houver sinais de mastite, febre na mãe, ou dificuldade grave na amamentação que possa comprometer a saúde dos bebês.
+    *   **Central de Apoio.**
+
+---
+
+#### PARADA #15 — PÓS-PARTO
+*   **Local:** Paciente Camila Oliveira - Ipiranga
+*   **Chegada Prevista:** 15h03 (Janela: 9h-17h)
+*   **Suprimentos:** 1 unidade(s)
+*   **Observação da Rota:** 7 dias pós-parto. Verificar amamentação, cicatriz e sinais de baby blues.
+*   **Ações ao Chegar:**
+    *   Abordar a paciente com delicadeza e escuta ativa.
+    *   Apresentar-se e informar sobre a visita de acompanhamento.
+*   **Protocolos Específicos:**
+    *   Verificar a amamentação (pega, produção, conforto da mãe).
+    *   Avaliar a cicatriz (se parto cesárea) ou região perineal (se parto normal) em busca de sinais de complicação.
+    *   **Muito importante:** Avaliar a presença de sinais de "baby blues" (tristeza, labilidade emocional) ou, se mais grave, de depressão pós-parto. Conversar abertamente e oferecer suporte.
+*   **O que Observar e Registrar:**
+    *   Horário exato de chegada e saída.
+    *   Status da amamentação e bem-estar do bebê.
+    *   Condição da cicatriz/períneo.
+    *   Humor da paciente, relatos de tristeza, ansiedade ou dificuldade de adaptação.
+*   **Acionamento de Suporte:**
+    *   **Imediatamente:** Se houver sinais de depressão pós-parto grave (ideação suicida, negligência com o bebê) ou qualquer complicação física urgente.
+    *   **Central de Apoio.**
+
+---
+
+### 3. PROTOCOLOS DE SEGURANÇA
+
+#### 3.1. Procedimentos para Casos de Violência Doméstica (Paradas #04, #05, #06):
+*   **SEGURANÇA É A PRIORIDADE:** A vida da paciente e da equipe está em primeiro lugar.
+*   **DISCRIÇÃO ABSOLUTA:**
+    *   **Não identificar o veículo:** Sempre que possível, utilize veículos descaracterizados ou estacione longe para não chamar atenção.
+    *   **Codinomes e linguajar neutro:** Utilize os termos "entrega de farmácia" ou similares, e evite mencionar "hospital" ou "saúde" na presença de terceiros.
+    *   **Abordagem discreta:** Bata à porta discretamente, evite campainhas ruidosas.
+*   **CONSCIÊNCIA SITUACIONAL:**
+    *   Observe o ambiente ao redor (vizinhos, movimentação estranha).
+    *   Identifique rotas de saída do local antes de entrar.
+    *   Fique atento a ruídos, vozes alteradas ou qualquer sinal de tensão.
+*   **COMUNICAÇÃO PRÉVIA E CONTÍNUA:**
+    *   A Central de Apoio já realizou contato prévio (ex: assistente social, psicólogo).
+    *   Mantenha seu celular acessível e com bateria. Em caso de perigo iminente, use códigos pré-definidos (se houver) para alertar a Central.
+*   **NÃO CONFRONTAR:** Evite discussões com possíveis agressores ou terceiros hostis. Sua missão é apoiar a paciente e entregar suprimentos, não mediar conflitos.
+*   **RETRAGIR-SE SE HOUVER RISCO:** Se a situação se tornar perigosa para você ou para a paciente, retire-se do local imediatamente e acione a Central. Não há heroísmo em colocar vidas em risco.
+*   **DOCUMENTAÇÃO PÓS-SAÍDA:** Registre todos os detalhes relevantes (comportamento de terceiros, estado da paciente, qualquer observação de risco) *após* sair do local, para não comprometer a discrição.
+
+#### 3.2. Manuseio de Medicamentos com Cadeia Fria (Paradas #07, #09, #10):
+*   **VERIFICAÇÃO PRÉ-SAÍDA:**
+    *   Confira se as bolsas térmicas estão íntegras e limpas.
+    *   Verifique se os elementos de resfriamento (gelo gel/placas) estão adequadamente pré-condicionados e na quantidade correta.
+    *   Certifique-se de que os termômetros estão calibrados e funcionando.
+*   **CARREGAMENTO E ARMAZENAMENTO NO VEÍCULO:**
+    *   Coloque os medicamentos nas bolsas térmicas *imediatamente antes* da partida.
+    *   **Parada #10:** Utilize a bolsa térmica do compartimento azul, específica para a faixa de 2°C a 8°C.
+    *   Minimize o tempo em que a bolsa térmica fica aberta.
+    *   Armazene as bolsas em local seguro no veículo, longe da luz solar direta.
+*   **MONITORAMENTO CONTÍNUO:**
+    *   Verifique a temperatura *antes de cada entrega* de medicamento de cadeia fria.
+    *   Registre a temperatura em seu formulário de controle.
+*   **ENTREGA RÁPIDA E SEGURA:**
+    *   A entrega deve ser feita o mais rápido possível à pessoa designada (ex: enfermeira Patrícia, Paciente Roberta, Paciente Helena).
+    *   Instrua o recebedor sobre a importância do armazenamento imediato em geladeira.
+    *   Obtenha a assinatura do recebedor e registre a temperatura e o horário exato da entrega.
+*   **INTERCORRÊNCIAS:**
+    *   Se a temperatura estiver fora da faixa permitida, **NÃO ENTREGUE** o medicamento. Isole-o e acione a Central imediatamente.
+    *   Em caso de dano à embalagem ou qualquer outra irregularidade, acione a Central.
+
+#### 3.3. Contatos de Emergência:
+*   **CENTRAL DE APOIO (24h):** [TELEFONE DA CENTRAL] - Para todas as intercorrências, dúvidas e acionamentos de suporte.
+*   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192 - Para emergências médicas com risco iminente de vida que exijam resposta imediata, sem tempo para aguardar a Central.
+*   **POLÍCIA MILITAR:** 190 - Para situações de segurança em que haja ameaça direta à integridade física da equipe ou da paciente.
+
+---
+
+### 4. ENCERRAMENTO DO DIA
+
+**Chegada Estimada ao Hospital Maternidade Vila Nova Cachoeirinha:** 15h46
+
+1.  **Retorno à Base:** Confirmar chegada ao Hospital Maternidade Vila Nova Cachoeirinha.
+2.  **Descarregamento e Descarte:**
+    *   Retornar suprimentos não utilizados ao almoxarifado.
+    *   Descartar resíduos (curativos, seringas, etc.) em coletores apropriados, seguindo as normas de descarte de resíduos de saúde.
+3.  **Limpeza e Organização:**
+    *   Limpar e higienizar o interior do veículo.
+    *   Higienizar as bolsas térmicas e os termômetros.
+    *   Recarregar os elementos de resfriamento para o próximo uso.
+4.  **Relatório Final e Check-out:**
+    *   Preencher completamente todos os formulários de registro de atendimento/entrega.
+    *   Registrar os horários exatos de chegada e saída de **cada parada**.
+    *   Detalhar todas as observações relevantes de cada paciente e atendimento, incluindo intercorrências, atrasos ou desvios de rota.
+    *   Reportar verbalmente ao supervisor de logística qualquer incidente ou feedback importante.
+    *   Assinar e entregar o relatório de atividades do dia ao setor responsável.
+    *   Entregar chaves do veículo e demais equipamentos.
+
+**Lembre-se: Sua dedicação e atenção aos detalhes são cruciais para a saúde e segurança das mulheres que atendemos. Mantenha-se seguro e comunique-se sempre!**

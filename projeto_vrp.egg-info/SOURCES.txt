@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+data/__init__.py
+data/synthetic_data.py
+llm/__init__.py
+llm/report_generator.py
+projeto_vrp.egg-info/PKG-INFO
+projeto_vrp.egg-info/SOURCES.txt
+projeto_vrp.egg-info/dependency_links.txt
+projeto_vrp.egg-info/requires.txt
+projeto_vrp.egg-info/top_level.txt
+visualization/__init__.py
+visualization/map_viz.py
+vrp/__init__.py
+vrp/fitness.py
+vrp/genetic_algorithm.py
+vrp/waze_adapter.py

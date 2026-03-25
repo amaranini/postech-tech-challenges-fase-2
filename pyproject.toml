@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projeto-vrp"
+version = "0.1.0"
+description = "Vehicle Routing Problem solver with genetic algorithm, map visualization, and LLM reporting."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy>=1.26,<3",
+    "folium>=0.16,<1",
+    "google-generativeai>=0.8,<1",
+]
+
+[tool.setuptools]
+packages = ["data", "llm", "visualization", "vrp"]

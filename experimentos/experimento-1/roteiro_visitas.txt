@@ -1,0 +1,172 @@
+**ROTEIRO DETALHADO DE VISITAS DE CAMPO**
+**Logística Hospitalar - Saúde da Mulher**
+
+---
+
+**INFORMAÇÕES GERAIS DA ROTA**
+
+*   **Data:** 24 de Março de 2026
+*   **Equipe Responsável:** [Preencher Nome(s) da Equipe]
+*   **Veículo:** [Preencher Placa do Veículo]
+*   **Capacidade de Suprimentos do Veículo:** 25 unidades
+*   **Carga Inicial de Suprimentos:** 23 unidades
+*   **Saída Prevista do Ponto de Partida:** 07h00
+
+---
+
+**PONTO DE PARTIDA**
+
+*   **07h00 - SAÍDA:** Hospital Maternidade Vila Nova Cachoeirinha
+    *   **Ação:** Confirmar checklist do veículo, equipamentos de segurança, suprimentos (total de 23 unidades carregadas), bolsas térmicas com gelo/gel refrigerante para os itens de **CADEIA FRIA**, e dispositivos de comunicação.
+
+---
+
+**ROTEIRO DETALHADO DAS VISITAS**
+
+**PARADA #01 — EMERGÊNCIA OBSTÉTRICA**
+*   **Chegada Prevista:** 07h10 (Janela de Atendimento: 06h00 - 10h00)
+*   **Local:** Paciente Ana Lima - Santana
+*   **Tipo de Atendimento:** Gestante 38 semanas com contrações irregulares.
+*   **Suprimentos:** 2 unidades
+*   **Observações:** **PRIORIDADE.** Realizar avaliação rápida, monitorar sinais vitais e bem-estar fetal. Preparar para possível transporte imediato ao hospital se houver progressão ou sinais de risco.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 20-25 minutos (9.5 km)
+
+**PARADA #02 — EMERGÊNCIA OBSTÉTRICA**
+*   **Chegada Prevista:** 07h45 (Janela de Atendimento: 06h00 - 09h00)
+*   **Local:** Paciente Carla Souza - Penha
+*   **Tipo de Atendimento:** Sangramento pós-parto.
+*   **Suprimentos:** 2 unidades
+*   **Observações:** **URGÊNCIA MÁXIMA.** Avaliar rapidamente a quantidade e características do sangramento, sinais de choque (palidez, tontura), e estado geral da paciente. Acionar o suporte médico da central *imediatamente* se a situação se agravar. Estabilização e preparo para transporte.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 15-20 minutos (8.4 km)
+
+**PARADA #03 — EMERGÊNCIA OBSTÉTRICA**
+*   **Chegada Prevista:** 08h16 (Janela de Atendimento: 07h00 - 11h00)
+*   **Local:** Paciente Fernanda Rocha - Itaquera
+*   **Tipo de Atendimento:** Pressão arterial elevada em gestante.
+*   **Suprimentos:** 1 unidade
+*   **Observações:** Risco de pré-eclâmpsia. Verificar e registrar a Pressão Arterial. Questionar sobre sintomas (dor de cabeça forte, visão turva, dor na parte superior do abdômen). Orientar a paciente sobre a necessidade urgente de avaliação médica em hospital.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 30-40 minutos (15.7 km)
+
+**PARADA #04 — VIOLÊNCIA DOMÉSTICA**
+*   **Chegada Prevista:** 10h00 (Janela de Atendimento: 10h00 - 16h00)
+*   **Local:** Paciente Juliana Martins - Santo André
+*   **Tipo de Atendimento:** Suporte e acolhimento em situação de violência doméstica.
+*   **Suprimentos:** 2 unidades
+*   **Observações:** **PROTOCOLO ESPECIAL DE DISCREÇÃO.** Abordagem extremamente sensível e cuidadosa. Informar que o acompanhamento psicológico remoto está disponível durante a visita. A assistente social já foi contatada e está ciente. Reportar **imediatamente** à central qualquer sinal de risco ou necessidade de intervenção urgente.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 25-30 minutos (18.7 km)
+
+**PARADA #05 — VIOLÊNCIA DOMÉSTICA**
+*   **Chegada Prevista:** 10h52 (Janela de Atendimento: 08h00 - 14h00)
+*   **Local:** Paciente Beatriz Costa - Bom Retiro
+*   **Tipo de Atendimento:** Suporte e acolhimento em situação de violência doméstica.
+*   **Suprimentos:** 1 unidade
+*   **Observações:** **PROTOCOLO ESPECIAL DE DISCREÇÃO.** O veículo **NÃO DEVE SER IDENTIFICADO** com adesivos do hospital. Bater à porta de forma **DISCRETA**. Aguardar resposta por no máximo 3 minutos. Se não houver retorno, **CONTATAR A CENTRAL IMEDIATAMENTE** antes de qualquer outra ação.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 15-20 minutos (6.7 km)
+
+**PARADA #06 — VIOLÊNCIA DOMÉSTICA**
+*   **Chegada Prevista:** 11h20 (Janela de Atendimento: 09h00 - 15h00)
+*   **Local:** Paciente Daniela Ferreira - Lapa
+*   **Tipo de Atendimento:** Suporte e acolhimento em situação de violência doméstica.
+*   **Suprimentos:** 1 unidade
+*   **Observações:** **PROTOCOLO ESPECIAL DE DISCREÇÃO.** Utilizar o codinome "entrega de farmácia". **NÃO MENCIONAR O NOME DO HOSPITAL** em caso de terceiros (vizinhos, familiares) estarem presentes. Referir-se apenas como "Serviço de Saúde".
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 10-15 minutos (5.1 km)
+
+**PARADA #07 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA**
+*   **Chegada Prevista:** 11h45 (Janela de Atendimento: 07h00 - 12h00)
+*   **Local:** UBS Saúde da Mulher - Pinheiros
+*   **Tipo de Atendimento:** Entrega de Anticoncepcional Injetável Trimestral (lote de 3 unidades).
+*   **Suprimentos:** 3 unidades
+*   **Observações:** **CADEIA FRIA:** Manter a temperatura controlada (máximo 25°C). Entregar **EXCLUSIVAMENTE** para a enfermeira Patrícia. Solicitar assinatura e verificar a integridade das embalagens.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 10-15 minutos (5.1 km)
+
+**PARADA #08 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA**
+*   **Chegada Prevista:** 12h11 (Janela de Atendimento: 08h00 - 18h00)
+*   **Local:** Paciente Helena Nascimento - Moema
+*   **Tipo de Atendimento:** Entrega de Insulina e Hormônios Tireoidianos.
+*   **Suprimentos:** 1 unidade
+*   **Observações:** **CADEIA FRIA:** Manter a temperatura entre 2°C e 8°C. **USAR A BOLSA TÉRMICA DO COMPARTIMENTO AZUL.** Orientar a paciente sobre o armazenamento correto e a importância da cadeia fria.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 5-10 minutos (3.6 km)
+
+**PARADA #09 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA**
+*   **Chegada Prevista:** 12h33 (Janela de Atendimento: 10h00 - 20h00)
+*   **Local:** Paciente Roberta Alves - Vila Mariana
+*   **Tipo de Atendimento:** Entrega de Hormônios para tratamento de SOP (Síndrome dos Ovários Policísticos).
+*   **Suprimentos:** 1 unidade
+*   **Observações:** **CADEIA FRIA:** Conservar em frio. A paciente trabalha até as 18h. Se possível, fazer contato telefônico prévio para confirmar a disponibilidade da paciente e otimizar a entrega dentro da janela.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 15-20 minutos (8.0 km)
+
+**PARADA #10 — MEDICAMENTO HORMONAL**
+*   **Chegada Prevista:** 13h04 (Janela de Atendimento: 09h00 - 17h00)
+*   **Local:** Clínica Feminina - Tatuapé
+*   **Tipo de Atendimento:** Entrega de Terapia de Reposição Hormonal (TRH).
+*   **Suprimentos:** 2 unidades
+*   **Observações:** Entregar na recepção. **Coletar ASSINATURA** e carimbo da clínica como comprovante.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 10-15 minutos (6.2 km)
+
+**PARADA #11 — PÓS-PARTO**
+*   **Chegada Prevista:** 13h31 (Janela de Atendimento: 09h00 - 17h00)
+*   **Local:** Paciente Camila Oliveira - Ipiranga
+*   **Tipo de Atendimento:** Acompanhamento pós-parto (7 dias).
+*   **Suprimentos:** 1 unidade
+*   **Observações:** Avaliar a amamentação, cicatrização (se aplicável, pós-cesárea ou episiotomia) e observar sinais de "baby blues" ou depressão pós-parto. Oferecer suporte emocional e orientações.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 5-10 minutos (3.9 km)
+
+**PARADA #12 — PÓS-PARTO**
+*   **Chegada Prevista:** 13h54 (Janela de Atendimento: 09h00 - 15h00)
+*   **Local:** Paciente Tatiane Gomes - Saúde
+*   **Tipo de Atendimento:** Acompanhamento pós-parto gemelar (10 dias).
+*   **Suprimentos:** 2 unidades
+*   **Observações:** Foco em **APOIO INTENSIVO À AMAMENTAÇÃO** dos bebês. Oferecer orientações específicas para o manejo de gêmeos e cuidados com a mãe.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 5-10 minutos (3.4 km)
+
+**PARADA #13 — PÓS-PARTO**
+*   **Chegada Prevista:** 14h16 (Janela de Atendimento: 10h00 - 18h00)
+*   **Local:** Paciente Larissa Pereira - Jabaquara
+*   **Tipo de Atendimento:** Acompanhamento pós-parto cesárea (15 dias).
+*   **Suprimentos:** 2 unidades
+*   **Observações:** Realizar **CURATIVO** na incisão cirúrgica (se necessário). Oferecer orientações detalhadas sobre higiene da incisão, sinais de infecção e importância do repouso.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 5-10 minutos (2.8 km)
+
+**PARADA #14 — PÓS-PARTO**
+*   **Chegada Prevista:** 14h37 (Janela de Atendimento: 11h00 - 19h00)
+*   **Local:** Paciente Priscila Mendes - Campo Belo
+*   **Tipo de Atendimento:** Consulta de retorno pós-parto (30 dias).
+*   **Suprimentos:** 1 unidade
+*   **Observações:** Realizar a **CONSULTA DE RETORNO PÓS-PARTO**. Se agendado, realizar a coleta de material para exame. Orientar sobre planejamento familiar e métodos contraceptivos.
+*   **Tempo Estimado de Deslocamento para a Próxima Parada:** Aprox. 5-10 minutos (2.8 km)
+
+**PARADA #15 — PÓS-PARTO**
+*   **Chegada Prevista:** 14h57 (Janela de Atendimento: 08h00 - 16h00)
+*   **Local:** Paciente Marina Santos - Brooklin
+*   **Tipo de Atendimento:** Acompanhamento pós-parto (21 dias).
+*   **Suprimentos:** 1 unidade
+*   **Observações:** Realizar acompanhamento nutricional da mãe e do recém-nascido. Verificar cartão de vacinação e, se agendado, realizar **VACINAÇÃO DO RECÉM-NASCIDO** no local.
+*   **Tempo Estimado de Deslocamento para o Retorno à Base:** Aprox. 45 minutos.
+
+---
+
+**RETORNO À BASE**
+
+*   **Chegada Estimada:** 15h43
+*   **Local:** Hospital Maternidade Vila Nova Cachoeirinha
+*   **Ações:** Realizar descarregamento de materiais e equipamentos. Preencher relatórios detalhados de cada visita, reportar quaisquer intercorrências ou observações relevantes à coordenação.
+
+---
+
+**RESUMO DA ROTA**
+
+*   **Distância Total Percorrida:** 121.1 km
+*   **Total de Suprimentos Distribuídos:** 23 unidades
+*   **Previsão de Fim da Rota (chegada na base):** 15h43 (sem contabilizar tempo para relatórios e descarregamento)
+
+---
+
+**LEMBRETES IMPORTANTES PARA A EQUIPE EM CAMPO:**
+
+1.  **Comunicação:** Mantenham a central informada sobre o progresso da rota, qualquer atraso significativo ou intercorrência.
+2.  **Emergências:** Em caso de emergência obstétrica ou qualquer outra situação que exija intervenção imediata, priorizem a segurança da paciente e **acionem a central imediatamente**.
+3.  **Cadeia Fria:** Verifiquem e mantenham rigorosamente as condições de temperatura dos medicamentos de cadeia fria. Usem os compartimentos e elementos refrigerantes designados.
+4.  **Discreção:** Nas visitas de Violência Doméstica, sigam os protocolos de discrição à risca para garantir a segurança e a privacidade da paciente.
+5.  **Acolhimento:** Em todos os atendimentos, demonstrem empatia, sensibilidade e profissionalismo, priorizando o bem-estar físico e emocional da mulher.
+6.  **Higiene:** Mantenham as práticas de higiene e segurança (uso de EPIs) durante todas as visitas.
+7.  **Documentação:** Registrem de forma clara e completa todas as informações relevantes de cada atendimento nos formulários apropriados.

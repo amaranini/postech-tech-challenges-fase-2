@@ -1,0 +1,205 @@
+**ROTEIRO DETALHADO DE VISITAS - LOGÍSTICA SAÚDE DA MULHER**
+
+**Data:** 24 de Março de 2026
+**Veículo:** Unidade Móvel de Saúde da Mulher
+**Capacidade de Suprimentos (Inicial):** 25 unidades
+**Saída Prevista do Hospital Maternidade Vila Nova Cachoeirinha:** 07h00
+**Equipe Responsável:** [Preencher Nome da Enfermeira/Técnico de Enfermagem] / [Preencher Nome do Motorista]
+
+---
+
+**LEMBRETES IMPORTANTES PARA A EQUIPE:**
+
+*   **PRIORIDADE ABSOLUTA:** Emergências obstétricas. Mantenham a comunicação aberta com a central em caso de qualquer alteração no estado da paciente ou atraso.
+*   **CADEIA FRIA (❄️):** Verifiquem e mantenham a temperatura rigorosamente conforme as especificações. Usem os compartimentos térmicos designados e termômetros.
+*   **VIOLÊNCIA DOMÉSTICA:** Sigam estritamente os protocolos especiais de discrição e segurança para cada caso. A privacidade e a segurança da paciente são primordiais.
+*   **PRIVACIDADE:** Todas as informações das pacientes são confidenciais. Mantenham discrição durante as visitas.
+*   **COMUNICAÇÃO:** Reportem qualquer imprevisto, atraso significativo ou necessidade adicional de suporte à central imediatamente.
+*   **SEGURANÇA:** Conduzam com cautela, respeitando as leis de trânsito.
+
+---
+
+**DETALHAMENTO DO ROTEIRO:**
+
+**PONTO DE PARTIDA: Hospital Maternidade Vila Nova Cachoeirinha**
+*Saída Prevista: 07h00*
+
+---
+
+**PARADA #01 — EMERGÊNCIA OBSTÉTRICA**
+*   **Paciente:** Ana Lima
+*   **Endereço:** Santana [Preencher Endereço Completo]
+*   **Chegada Prevista:** 07h10 (Janela de Atendimento: 06h00 - 10h00)
+*   **Distância da Base:** 5.5 km
+*   **Tempo Estimado de Deslocamento:** 10 minutos
+*   **Suprimentos:** 2 unidades
+*   **Notas Importantes:** **PRIORIDADE MÁXIMA.** Gestante de 38 semanas com contrações irregulares. Realizar avaliação rápida, monitorar sinais vitais e contrações. Preparar para possível transporte imediato ao hospital se houver progressão.
+
+---
+
+**PARADA #02 — EMERGÊNCIA OBSTÉTRICA**
+*   **Paciente:** Carla Souza
+*   **Endereço:** Penha [Preencher Endereço Completo]
+*   **Chegada Prevista:** 07h45 (Janela de Atendimento: 06h00 - 09h00)
+*   **Distância da Parada Anterior:** 9.5 km
+*   **Tempo Estimado de Deslocamento:** 35 minutos
+*   **Suprimentos:** 2 unidades
+*   **Notas Importantes:** **RISCO ELEVADO - PRIORIDADE MÁXIMA.** Relato de sangramento pós-parto. Avaliar volume do sangramento, sinais de choque e estado geral da puérpera. Acionar suporte adicional da central se necessário. Preparar para intervenção e transporte urgente.
+
+---
+
+**PARADA #03 — EMERGÊNCIA OBSTÉTRICA**
+*   **Paciente:** Fernanda Rocha
+*   **Endereço:** Itaquera [Preencher Endereço Completo]
+*   **Chegada Prevista:** 08h16 (Janela de Atendimento: 07h00 - 11h00)
+*   **Distância da Parada Anterior:** 8.4 km
+*   **Tempo Estimado de Deslocamento:** 31 minutos
+*   **Suprimentos:** 1 unidade
+*   **Notas Importantes:** Gestante com pressão arterial elevada. Risco de pré-eclâmpsia. Realizar aferições seriadas de PA. Observar edemas, cefaleia ou alterações visuais. Orientar a paciente sobre a importância do monitoramento e sinais de alerta.
+
+---
+
+**PARADA #04 — VIOLÊNCIA DOMÉSTICA (PROTOCOLO ESPECIAL)**
+*   **Paciente:** Juliana Martins
+*   **Endereço:** Santo André [Preencher Endereço Completo]
+*   **Chegada Prevista:** 10h00 (Janela de Atendimento: 10h00 - 16h00)
+*   **Distância da Parada Anterior:** 15.7 km
+*   **Tempo Estimado de Deslocamento:** 1 hora e 44 minutos
+*   **Suprimentos:** 2 unidades
+*   **Notas Importantes:** **DISCREÇÃO TOTAL.** Acompanhamento psicológico remoto *ATIVADO* durante a visita. Contato prévio com a assistente social *CONFIRMADO*. Não utilizar identificação do hospital no veículo. Observar o ambiente discretamente antes da abordagem.
+
+---
+
+**PARADA #05 — VIOLÊNCIA DOMÉSTICA (PROTOCOLO ESPECIAL)**
+*   **Paciente:** Beatriz Costa
+*   **Endereço:** Bom Retiro [Preencher Endereço Completo]
+*   **Chegada Prevista:** 10h52 (Janela de Atendimento: 08h00 - 14h00)
+*   **Distância da Parada Anterior:** 18.7 km
+*   **Tempo Estimado de Deslocamento:** 52 minutos
+*   **Suprimentos:** 1 unidade
+*   **Notas Importantes:** **DISCREÇÃO MÁXIMA.** Não identificar o veículo. Bater discretamente na porta. Aguardar resposta por *NO MÁXIMO 3 MINUTOS*. Se não houver resposta, *CONTATAR A CENTRAL IMEDIATAMENTE* para novas instruções, sem insistir na abordagem.
+
+---
+
+**PARADA #06 — VIOLÊNCIA DOMÉSTICA (PROTOCOLO ESPECIAL)**
+*   **Paciente:** Daniela Ferreira
+*   **Endereço:** Lapa [Preencher Endereço Completo]
+*   **Chegada Prevista:** 11h20 (Janela de Atendimento: 09h00 - 15h00)
+*   **Distância da Parada Anterior:** 6.7 km
+*   **Tempo Estimado de Deslocamento:** 28 minutos
+*   **Suprimentos:** 1 unidade
+*   **Notas Importantes:** **DISCREÇÃO ABSOLUTA.** A visita é sob o codinome "entrega de farmácia". Em caso de terceiros presentes ou perguntas, *NÃO MENCIONAR O HOSPITAL OU O MOTIVO REAL DA VISITA*. Manter a fachada de "entrega de medicamento".
+
+---
+
+**PARADA #07 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA**
+*   **Local:** UBS Saúde da Mulher
+*   **Endereço:** Pinheiros [Preencher Endereço Completo]
+*   **Chegada Prevista:** 11h45 (Janela de Atendimento: 07h00 - 12h00)
+*   **Distância da Parada Anterior:** 5.1 km
+*   **Tempo Estimado de Deslocamento:** 25 minutos
+*   **Suprimentos:** 3 unidades (Anticoncepcional injetável trimestral)
+*   **Notas Importantes:** **CRÍTICO: CADEIA FRIA.** Manter temperatura máxima de 25°C. Assegurar que os suprimentos estejam no compartimento térmico adequado (ex: compartimento verde). Entregar *EXCLUSIVAMENTE* à enfermeira Patrícia. Solicitar e conferir assinatura.
+
+---
+
+**PARADA #08 — MEDICAMENTO HORMONAL**
+*   **Local:** Clínica Feminina
+*   **Endereço:** Tatuapé [Preencher Endereço Completo]
+*   **Chegada Prevista:** 12h23 (Janela de Atendimento: 09h00 - 17h00)
+*   **Distância da Parada Anterior:** 11.3 km
+*   **Tempo Estimado de Deslocamento:** 38 minutos
+*   **Suprimentos:** 2 unidades (Terapia de reposição hormonal)
+*   **Notas Importantes:** Entregar os suprimentos na recepção. Solicitar assinatura clara e legível no comprovante de entrega.
+
+---
+
+**PARADA #09 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA**
+*   **Paciente:** Roberta Alves
+*   **Endereço:** Vila Mariana [Preencher Endereço Completo]
+*   **Chegada Prevista:** 12h54 (Janela de Atendimento: 10h00 - 20h00)
+*   **Distância da Parada Anterior:** 8.0 km
+*   **Tempo Estimado de Deslocamento:** 31 minutos
+*   **Suprimentos:** 1 unidade (Hormônios para tratamento de SOP)
+*   **Notas Importantes:** **CRÍTICO: CADEIA FRIA.** Manter os hormônios no compartimento térmico (ex: compartimento azul). Paciente trabalha até as 18h – *PREFERÊNCIA PELA ENTREGA NA PARTE DA TARDE*. Confirmar recebimento pessoalmente pela paciente.
+
+---
+
+**PARADA #10 — MEDICAMENTO HORMONAL ❄️ CADEIA FRIA**
+*   **Paciente:** Helena Nascimento
+*   **Endereço:** Moema [Preencher Endereço Completo]
+*   **Chegada Prevista:** 13h16 (Janela de Atendimento: 08h00 - 18h00)
+*   **Distância da Parada Anterior:** 3.6 km
+*   **Tempo Estimado de Deslocamento:** 22 minutos
+*   **Suprimentos:** 1 unidade (Insulina + hormônios tireoidianos)
+*   **Notas Importantes:** **CADEIA FRIA RIGOROSA.** Manter entre 2°C e 8°C. Usar *bolsa térmica compartimento azul*. Verificar a temperatura no momento da entrega e orientar a paciente sobre o armazenamento doméstico correto.
+
+---
+
+**PARADA #11 — PÓS-PARTO**
+*   **Paciente:** Marina Santos
+*   **Endereço:** Brooklin [Preencher Endereço Completo]
+*   **Chegada Prevista:** 13h37 (Janela de Atendimento: 08h00 - 16h00)
+*   **Distância da Parada Anterior:** 2.9 km
+*   **Tempo Estimado de Deslocamento:** 21 minutos
+*   **Suprimentos:** 1 unidade
+*   **Notas Importantes:** 21 dias pós-parto. Realizar acompanhamento nutricional da puérpera e do recém-nascido. Verificar a carteirinha de vacinação do bebê e orientar sobre as próximas doses.
+
+---
+
+**PARADA #12 — PÓS-PARTO**
+*   **Paciente:** Priscila Mendes
+*   **Endereço:** Campo Belo [Preencher Endereço Completo]
+*   **Chegada Prevista:** 13h58 (Janela de Atendimento: 11h00 - 19h00)
+*   **Distância da Parada Anterior:** 2.8 km
+*   **Tempo Estimado de Deslocamento:** 21 minutos
+*   **Suprimentos:** 1 unidade
+*   **Notas Importantes:** 30 dias pós-parto. Consulta de retorno. Realizar coleta para exame (se kit a bordo) e orientar sobre cuidados de saúde contínuos no pós-parto.
+
+---
+
+**PARADA #13 — PÓS-PARTO**
+*   **Paciente:** Larissa Pereira
+*   **Endereço:** Jabaquara [Preencher Endereço Completo]
+*   **Chegada Prevista:** 14h18 (Janela de Atendimento: 10h00 - 18h00)
+*   **Distância da Parada Anterior:** 2.8 km
+*   **Tempo Estimado de Deslocamento:** 20 minutos
+*   **Suprimentos:** 2 unidades
+*   **Notas Importantes:** 15 dias pós-parto cesárea. Avaliar a incisão cirúrgica, trocar curativo (se necessário) e fornecer orientações detalhadas sobre higiene e sinais de alerta para infecção.
+
+---
+
+**PARADA #14 — PÓS-PARTO**
+*   **Paciente:** Tatiane Gomes
+*   **Endereço:** Saúde [Preencher Endereço Completo]
+*   **Chegada Prevista:** 14h40 (Janela de Atendimento: 09h00 - 15h00)
+*   **Distância da Parada Anterior:** 3.4 km
+*   **Tempo Estimado de Deslocamento:** 22 minutos
+*   **Suprimentos:** 2 unidades
+*   **Notas Importantes:** 10 dias pós-parto gemelar. Foco no apoio intensivo à amamentação. Avaliar a pega e a posição dos bebês, oferecendo suporte e orientações específicas para o aleitamento de múltiplos.
+
+---
+
+**PARADA #15 — PÓS-PARTO**
+*   **Paciente:** Camila Oliveira
+*   **Endereço:** Ipiranga [Preencher Endereço Completo]
+*   **Chegada Prevista:** 15h03 (Janela de Atendimento: 09h00 - 17h00)
+*   **Distância da Parada Anterior:** 3.9 km
+*   **Tempo Estimado de Deslocamento:** 23 minutos
+*   **Suprimentos:** 1 unidade
+*   **Notas Importantes:** 7 dias pós-parto. Verificar amamentação, cicatrização (se parto normal) ou incisão (se cesárea). Avaliar o estado emocional da puérpera e orientar sobre os sinais de "baby blues" ou depressão pós-parto.
+
+---
+
+**RETORNO À BASE: Hospital Maternidade Vila Nova Cachoeirinha**
+*   **Chegada Estimada:** 15h46
+
+---
+
+**RESUMO DA ROTA:**
+
+*   **Total de Suprimentos Distribuídos:** 23 unidades
+*   **Suprimentos Restantes no Veículo:** 2 unidades
+*   **Distância Total Percorrida:** 122.7 km
+
+**BOA VIAGEM E BOM TRABALHO!**

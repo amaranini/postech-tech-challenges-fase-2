@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e4c705412468ecb666efdb7499260c09 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="
+        position: fixed;
+        bottom: 30px; left: 30px;
+        background: white;
+        padding: 14px 18px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        font-family: Arial;
+        font-size: 13px;
+        z-index: 1000;
+        min-width: 200px;
+    ">
+        <b style="font-size:14px;">Tipos de Atendimento</b>
+        <hr style="margin: 8px 0;">
+        
+        <div style="display:flex; align-items:center; margin-bottom:6px;">
+            <div style="
+                width:14px; height:14px; border-radius:50%;
+                background:#d9534f;
+                margin-right:8px; flex-shrink:0;
+            "></div>
+            <span>Emergência Obstétrica</span>
+        </div>
+        
+        <div style="display:flex; align-items:center; margin-bottom:6px;">
+            <div style="
+                width:14px; height:14px; border-radius:50%;
+                background:#f0ad4e;
+                margin-right:8px; flex-shrink:0;
+            "></div>
+            <span>Violência Doméstica</span>
+        </div>
+        
+        <div style="display:flex; align-items:center; margin-bottom:6px;">
+            <div style="
+                width:14px; height:14px; border-radius:50%;
+                background:#337ab7;
+                margin-right:8px; flex-shrink:0;
+            "></div>
+            <span>Medicamento Hormonal</span>
+        </div>
+        
+        <div style="display:flex; align-items:center; margin-bottom:6px;">
+            <div style="
+                width:14px; height:14px; border-radius:50%;
+                background:#5cb85c;
+                margin-right:8px; flex-shrink:0;
+            "></div>
+            <span>Pós-Parto</span>
+        </div>
+        
+        <div style="display:flex; align-items:center; margin-bottom:6px;">
+            <div style="
+                width:14px; height:14px; border-radius:50%;
+                background:#2c3e50;
+                margin-right:8px; flex-shrink:0;
+            "></div>
+            <span>Base Hospitalar</span>
+        </div>
+        
+    </div>
+    
+    
+            <div class="folium-map" id="map_e4c705412468ecb666efdb7499260c09" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e4c705412468ecb666efdb7499260c09 = L.map(
+                "map_e4c705412468ecb666efdb7499260c09",
+                {
+                    center: [-23.565935294117647, -46.6259],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d76dd185ae48c378f129878cc2443444 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d76dd185ae48c378f129878cc2443444.addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var poly_line_e232329e6eabea134486dec393492fb6 = L.polyline(
+                [[-23.4766, -46.6723], [-23.5029, -46.6267], [-23.5289, -46.5378], [-23.5384, -46.4558], [-23.6615, -46.5322], [-23.5238, -46.6367], [-23.5209, -46.7028], [-23.5632, -46.6847], [-23.6058, -46.6655], [-23.5873, -46.6361], [-23.5408, -46.5765], [-23.5896, -46.6062], [-23.6183, -46.6289], [-23.6441, -46.6468], [-23.6272, -46.6672], [-23.615, -46.6918], [-23.4766, -46.6723]],
+                {"bubblingMouseEvents": true, "color": "#2c3e50", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2c3e50", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            poly_line_e232329e6eabea134486dec393492fb6.bindTooltip(
+                `<div>
+                     Rota otimizada
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eeb1e881281b165694b62b01bd842c83 = L.marker(
+                [-23.4766, -46.6723],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_89ed6222fe9f73b617a737d18f2b0661 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e83ee5f0b34284fc9117ab1fdfb5f108 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_8d937c82660ae89f5f1aceefe8b2f68c = $(`<div id="html_8d937c82660ae89f5f1aceefe8b2f68c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">                  <b style="font-size:13px;">Hospital Maternidade Vila Nova Cachoeirinha</b><br>         <span style="color: gray;">Base Hospitalar</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 6h às 22h<br>                           <i style="font-size:11px; color:#555;">Base de operações. Ponto de partida e retorno da rota.</i>     </div>     </div>`)[0];
+                popup_e83ee5f0b34284fc9117ab1fdfb5f108.setContent(html_8d937c82660ae89f5f1aceefe8b2f68c);
+            
+        
+
+        marker_eeb1e881281b165694b62b01bd842c83.bindPopup(popup_e83ee5f0b34284fc9117ab1fdfb5f108)
+        ;
+
+        
+    
+    
+            marker_eeb1e881281b165694b62b01bd842c83.bindTooltip(
+                `<div>
+                     🏥 Base
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eeb1e881281b165694b62b01bd842c83.setIcon(icon_89ed6222fe9f73b617a737d18f2b0661);
+            
+    
+            var marker_4cc13bd1ad6ff59389df76a01df2d7b1 = L.marker(
+                [-23.5029, -46.6267],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_de7b5980e5dcee070fad0797e933f5eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f33bba2922c0539adead0c8698dff86c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_ad81e44445665340372d65398c19c8f4 = $(`<div id="html_ad81e44445665340372d65398c19c8f4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #1</b><br>         <b style="font-size:13px;">Paciente Ana Lima - Santana</b><br>         <span style="color: gray;">Emergência Obstétrica</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 6h às 10h<br>         📦 Suprimentos: 2<br>                  <i style="font-size:11px; color:#555;">Gestante 38 semanas com contrações irregulares. Atendimento imediato.</i>     </div>     </div>`)[0];
+                popup_f33bba2922c0539adead0c8698dff86c.setContent(html_ad81e44445665340372d65398c19c8f4);
+            
+        
+
+        marker_4cc13bd1ad6ff59389df76a01df2d7b1.bindPopup(popup_f33bba2922c0539adead0c8698dff86c)
+        ;
+
+        
+    
+    
+            marker_4cc13bd1ad6ff59389df76a01df2d7b1.bindTooltip(
+                `<div>
+                     #1 — Paciente Ana Lima - Santana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4cc13bd1ad6ff59389df76a01df2d7b1.setIcon(icon_de7b5980e5dcee070fad0797e933f5eb);
+            
+    
+            var marker_e6246c6fae1aee46a1208dcc812819d7 = L.marker(
+                [-23.5009, -46.6267],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_6efdaec7860e2503b71e04515b506089 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e1\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_e6246c6fae1aee46a1208dcc812819d7.setIcon(div_icon_6efdaec7860e2503b71e04515b506089);
+            
+    
+            var marker_048e87e04307bb54a0e9a80bbe52f5d6 = L.marker(
+                [-23.5289, -46.5378],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_ea62f8fb60e711490bc678e870989415 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8223ceecfdc9068670379178570ee3c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b1db27764d59d2166cfaaeecc5f7d268 = $(`<div id="html_b1db27764d59d2166cfaaeecc5f7d268" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #2</b><br>         <b style="font-size:13px;">Paciente Carla Souza - Penha</b><br>         <span style="color: gray;">Emergência Obstétrica</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 6h às 9h<br>         📦 Suprimentos: 2<br>                  <i style="font-size:11px; color:#555;">Sangramento pós-parto relatado por telefone. Prioridade máxima.</i>     </div>     </div>`)[0];
+                popup_e8223ceecfdc9068670379178570ee3c.setContent(html_b1db27764d59d2166cfaaeecc5f7d268);
+            
+        
+
+        marker_048e87e04307bb54a0e9a80bbe52f5d6.bindPopup(popup_e8223ceecfdc9068670379178570ee3c)
+        ;
+
+        
+    
+    
+            marker_048e87e04307bb54a0e9a80bbe52f5d6.bindTooltip(
+                `<div>
+                     #2 — Paciente Carla Souza - Penha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_048e87e04307bb54a0e9a80bbe52f5d6.setIcon(icon_ea62f8fb60e711490bc678e870989415);
+            
+    
+            var marker_9f0fd77aff4b397c9a2a1f877d9a6798 = L.marker(
+                [-23.5269, -46.5378],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_3a2122b4cde9f3f03647871db9b44d05 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e2\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_9f0fd77aff4b397c9a2a1f877d9a6798.setIcon(div_icon_3a2122b4cde9f3f03647871db9b44d05);
+            
+    
+            var marker_b25ddcb848f56fc1f8e2b5f6a0822e78 = L.marker(
+                [-23.5384, -46.4558],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_4a8eaf7a107f5fcb2149d35ef1105fb7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eec6863ce66abf124769a0658d8bdc78 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a69695e4503ae01c51c1da0df03f5885 = $(`<div id="html_a69695e4503ae01c51c1da0df03f5885" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #3</b><br>         <b style="font-size:13px;">Paciente Fernanda Rocha - Itaquera</b><br>         <span style="color: gray;">Emergência Obstétrica</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 7h às 11h<br>         📦 Suprimentos: 1<br>                  <i style="font-size:11px; color:#555;">Pressão arterial elevada. Risco de pré-eclâmpsia.</i>     </div>     </div>`)[0];
+                popup_eec6863ce66abf124769a0658d8bdc78.setContent(html_a69695e4503ae01c51c1da0df03f5885);
+            
+        
+
+        marker_b25ddcb848f56fc1f8e2b5f6a0822e78.bindPopup(popup_eec6863ce66abf124769a0658d8bdc78)
+        ;
+
+        
+    
+    
+            marker_b25ddcb848f56fc1f8e2b5f6a0822e78.bindTooltip(
+                `<div>
+                     #3 — Paciente Fernanda Rocha - Itaquera
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b25ddcb848f56fc1f8e2b5f6a0822e78.setIcon(icon_4a8eaf7a107f5fcb2149d35ef1105fb7);
+            
+    
+            var marker_d3cd4c36a853db331aab9ad73dcff699 = L.marker(
+                [-23.5364, -46.4558],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_8786bd47dc9d8dd4a650a3b716993d93 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e3\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_d3cd4c36a853db331aab9ad73dcff699.setIcon(div_icon_8786bd47dc9d8dd4a650a3b716993d93);
+            
+    
+            var marker_a19f6bc509c11d8b6b46778bd6aebe87 = L.marker(
+                [-23.6615, -46.5322],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_ecce01688ff58c7384af597b2cbf166c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_428f90e63976fbde2d6a3b4a75cd78f7 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f43c3f02665b496325739258cee791f9 = $(`<div id="html_f43c3f02665b496325739258cee791f9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #4</b><br>         <b style="font-size:13px;">Paciente Juliana Martins - Santo André</b><br>         <span style="color: gray;">Violência Doméstica</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 10h às 16h<br>         📦 Suprimentos: 2<br>                  <i style="font-size:11px; color:#555;">PROTOCOLO ESPECIAL: Acompanhamento psicológico remoto durante a visita. Contato prévio com assistente social confirmado.</i>     </div>     </div>`)[0];
+                popup_428f90e63976fbde2d6a3b4a75cd78f7.setContent(html_f43c3f02665b496325739258cee791f9);
+            
+        
+
+        marker_a19f6bc509c11d8b6b46778bd6aebe87.bindPopup(popup_428f90e63976fbde2d6a3b4a75cd78f7)
+        ;
+
+        
+    
+    
+            marker_a19f6bc509c11d8b6b46778bd6aebe87.bindTooltip(
+                `<div>
+                     #4 — Paciente Juliana Martins - Santo André
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a19f6bc509c11d8b6b46778bd6aebe87.setIcon(icon_ecce01688ff58c7384af597b2cbf166c);
+            
+    
+            var marker_cdbd607199269629ad6fac6738d795f4 = L.marker(
+                [-23.6595, -46.5322],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_7339d03b0c8f1048b9eca6dcc27fed3d = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e4\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_cdbd607199269629ad6fac6738d795f4.setIcon(div_icon_7339d03b0c8f1048b9eca6dcc27fed3d);
+            
+    
+            var marker_de0a549f43ed31bc73448e9799f85b8e = L.marker(
+                [-23.5238, -46.6367],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_9d885de22080969bf80015d5ade259f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cca39379914434b269dfa3fff8e894a6 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_83dbfb5be7d4763d6759996ba536907e = $(`<div id="html_83dbfb5be7d4763d6759996ba536907e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #5</b><br>         <b style="font-size:13px;">Paciente Beatriz Costa - Bom Retiro</b><br>         <span style="color: gray;">Violência Doméstica</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 8h às 14h<br>         📦 Suprimentos: 1<br>                  <i style="font-size:11px; color:#555;">PROTOCOLO ESPECIAL: Não identificar veículo. Bater discretamente. Aguardar resposta por até 3 minutos antes de contatar central.</i>     </div>     </div>`)[0];
+                popup_cca39379914434b269dfa3fff8e894a6.setContent(html_83dbfb5be7d4763d6759996ba536907e);
+            
+        
+
+        marker_de0a549f43ed31bc73448e9799f85b8e.bindPopup(popup_cca39379914434b269dfa3fff8e894a6)
+        ;
+
+        
+    
+    
+            marker_de0a549f43ed31bc73448e9799f85b8e.bindTooltip(
+                `<div>
+                     #5 — Paciente Beatriz Costa - Bom Retiro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de0a549f43ed31bc73448e9799f85b8e.setIcon(icon_9d885de22080969bf80015d5ade259f8);
+            
+    
+            var marker_8f6fb71d4ccd1d14413848a934ea851a = L.marker(
+                [-23.521800000000002, -46.6367],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_4b01ddef1da5dd1832d278a4eb50a24e = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e5\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_8f6fb71d4ccd1d14413848a934ea851a.setIcon(div_icon_4b01ddef1da5dd1832d278a4eb50a24e);
+            
+    
+            var marker_53b2ecc9b967deb58d649e1c2986be01 = L.marker(
+                [-23.5209, -46.7028],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_bdb73253832cf0a4aadb3e7851359f86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4aefba96f7861d3420a1553f5f6090a1 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b6ba1cd21e7d699d1a526d5976c248bb = $(`<div id="html_b6ba1cd21e7d699d1a526d5976c248bb" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #6</b><br>         <b style="font-size:13px;">Paciente Daniela Ferreira - Lapa</b><br>         <span style="color: gray;">Violência Doméstica</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 9h às 15h<br>         📦 Suprimentos: 1<br>                  <i style="font-size:11px; color:#555;">PROTOCOLO ESPECIAL: Visita sob codinome 'entrega de farmácia'. Não mencionar hospital em caso de terceiros presentes.</i>     </div>     </div>`)[0];
+                popup_4aefba96f7861d3420a1553f5f6090a1.setContent(html_b6ba1cd21e7d699d1a526d5976c248bb);
+            
+        
+
+        marker_53b2ecc9b967deb58d649e1c2986be01.bindPopup(popup_4aefba96f7861d3420a1553f5f6090a1)
+        ;
+
+        
+    
+    
+            marker_53b2ecc9b967deb58d649e1c2986be01.bindTooltip(
+                `<div>
+                     #6 — Paciente Daniela Ferreira - Lapa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_53b2ecc9b967deb58d649e1c2986be01.setIcon(icon_bdb73253832cf0a4aadb3e7851359f86);
+            
+    
+            var marker_74885268e9235d1ce646d0032bd1d082 = L.marker(
+                [-23.518900000000002, -46.7028],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_8b8ef0d2d447ce263ee8da448477b431 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e6\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_74885268e9235d1ce646d0032bd1d082.setIcon(div_icon_8b8ef0d2d447ce263ee8da448477b431);
+            
+    
+            var marker_455d8a7a9f1b8b97f0e35d99067b2042 = L.marker(
+                [-23.5632, -46.6847],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_f737a04b82152aeb9d0f4c423ea593ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8dd517b4891f4b9f1b28e6f5141109d2 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_700f9dacf70ed7a2a45f53fc2606eac9 = $(`<div id="html_700f9dacf70ed7a2a45f53fc2606eac9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #7</b><br>         <b style="font-size:13px;">UBS Saúde da Mulher - Pinheiros</b><br>         <span style="color: gray;">Medicamento Hormonal</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 7h às 12h<br>         📦 Suprimentos: 3<br>         ❄️ Cadeia fria necessária<br>         <i style="font-size:11px; color:#555;">Anticoncepcional injetável trimestral (lote 3 unidades). Receber apenas com a enfermeira Patrícia. Temperatura máxima: 25°C.</i>     </div>     </div>`)[0];
+                popup_8dd517b4891f4b9f1b28e6f5141109d2.setContent(html_700f9dacf70ed7a2a45f53fc2606eac9);
+            
+        
+
+        marker_455d8a7a9f1b8b97f0e35d99067b2042.bindPopup(popup_8dd517b4891f4b9f1b28e6f5141109d2)
+        ;
+
+        
+    
+    
+            marker_455d8a7a9f1b8b97f0e35d99067b2042.bindTooltip(
+                `<div>
+                     #7 — UBS Saúde da Mulher - Pinheiros
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_455d8a7a9f1b8b97f0e35d99067b2042.setIcon(icon_f737a04b82152aeb9d0f4c423ea593ed);
+            
+    
+            var marker_89e99de18e4aa6a20bb7ad8841de7838 = L.marker(
+                [-23.5612, -46.6847],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_681250d5f69e3144edcb685e361b6132 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e7\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_89e99de18e4aa6a20bb7ad8841de7838.setIcon(div_icon_681250d5f69e3144edcb685e361b6132);
+            
+    
+            var marker_a565fa8141615e31a40305e57929e703 = L.marker(
+                [-23.6058, -46.6655],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_0ef3b52ccf767b4f1d4318aa22bd71af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_447e3127014432c4969d64fd43e42405 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_146a86d598bd39d1c6c9989b2f3610da = $(`<div id="html_146a86d598bd39d1c6c9989b2f3610da" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #8</b><br>         <b style="font-size:13px;">Paciente Helena Nascimento - Moema</b><br>         <span style="color: gray;">Medicamento Hormonal</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 8h às 18h<br>         📦 Suprimentos: 1<br>         ❄️ Cadeia fria necessária<br>         <i style="font-size:11px; color:#555;">Insulina + hormônios tireoidianos. Manter entre 2°C e 8°C. Usar bolsa térmica compartimento azul.</i>     </div>     </div>`)[0];
+                popup_447e3127014432c4969d64fd43e42405.setContent(html_146a86d598bd39d1c6c9989b2f3610da);
+            
+        
+
+        marker_a565fa8141615e31a40305e57929e703.bindPopup(popup_447e3127014432c4969d64fd43e42405)
+        ;
+
+        
+    
+    
+            marker_a565fa8141615e31a40305e57929e703.bindTooltip(
+                `<div>
+                     #8 — Paciente Helena Nascimento - Moema
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a565fa8141615e31a40305e57929e703.setIcon(icon_0ef3b52ccf767b4f1d4318aa22bd71af);
+            
+    
+            var marker_0d1fe82bced172a9c865b5e79f46b86d = L.marker(
+                [-23.6038, -46.6655],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_527c399425f59267e9ef60ad7ac9d21c = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e8\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_0d1fe82bced172a9c865b5e79f46b86d.setIcon(div_icon_527c399425f59267e9ef60ad7ac9d21c);
+            
+    
+            var marker_17e754cd323856a20d71c1547671fb97 = L.marker(
+                [-23.5873, -46.6361],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_6e83719a1befdafe5a0e678c72eba557 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e967596e42eccb22a1b05e195f681db5 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6c093917d6451c5c1970b56b57325da5 = $(`<div id="html_6c093917d6451c5c1970b56b57325da5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #9</b><br>         <b style="font-size:13px;">Paciente Roberta Alves - Vila Mariana</b><br>         <span style="color: gray;">Medicamento Hormonal</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 10h às 20h<br>         📦 Suprimentos: 1<br>         ❄️ Cadeia fria necessária<br>         <i style="font-size:11px; color:#555;">Hormônios para tratamento de SOP. Conservar em frio. Paciente trabalha até as 18h — preferência pela tarde.</i>     </div>     </div>`)[0];
+                popup_e967596e42eccb22a1b05e195f681db5.setContent(html_6c093917d6451c5c1970b56b57325da5);
+            
+        
+
+        marker_17e754cd323856a20d71c1547671fb97.bindPopup(popup_e967596e42eccb22a1b05e195f681db5)
+        ;
+
+        
+    
+    
+            marker_17e754cd323856a20d71c1547671fb97.bindTooltip(
+                `<div>
+                     #9 — Paciente Roberta Alves - Vila Mariana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_17e754cd323856a20d71c1547671fb97.setIcon(icon_6e83719a1befdafe5a0e678c72eba557);
+            
+    
+            var marker_1f9dbbb1ae72019d05b839e79734821f = L.marker(
+                [-23.5853, -46.6361],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_266a8421c106e72d31d00d3bfd13e2bb = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e9\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_1f9dbbb1ae72019d05b839e79734821f.setIcon(div_icon_266a8421c106e72d31d00d3bfd13e2bb);
+            
+    
+            var marker_292f7af4eac8a501ceae38f2dee9b9de = L.marker(
+                [-23.5408, -46.5765],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_736def77172bf338f9be421edffd9157 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49b0de749c85095a95a9b81c468e8d93 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6163f255cd597968b7de5a6d6d77a4ca = $(`<div id="html_6163f255cd597968b7de5a6d6d77a4ca" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #10</b><br>         <b style="font-size:13px;">Clínica Feminina - Tatuapé</b><br>         <span style="color: gray;">Medicamento Hormonal</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 9h às 17h<br>         📦 Suprimentos: 2<br>                  <i style="font-size:11px; color:#555;">Terapia de reposição hormonal. Entregar na recepção com assinatura.</i>     </div>     </div>`)[0];
+                popup_49b0de749c85095a95a9b81c468e8d93.setContent(html_6163f255cd597968b7de5a6d6d77a4ca);
+            
+        
+
+        marker_292f7af4eac8a501ceae38f2dee9b9de.bindPopup(popup_49b0de749c85095a95a9b81c468e8d93)
+        ;
+
+        
+    
+    
+            marker_292f7af4eac8a501ceae38f2dee9b9de.bindTooltip(
+                `<div>
+                     #10 — Clínica Feminina - Tatuapé
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_292f7af4eac8a501ceae38f2dee9b9de.setIcon(icon_736def77172bf338f9be421edffd9157);
+            
+    
+            var marker_d174a48c3b3047de396b0c7bb24ba408 = L.marker(
+                [-23.538800000000002, -46.5765],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_ae135f4ff027eaf236cbe05ce068f5aa = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e10\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_d174a48c3b3047de396b0c7bb24ba408.setIcon(div_icon_ae135f4ff027eaf236cbe05ce068f5aa);
+            
+    
+            var marker_394aef232302c9431b9f5ee068b0c326 = L.marker(
+                [-23.5896, -46.6062],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_1ecd44b786290e77f650ba5a0d8717b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebde49208b6997b3e31d802f1aec761f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6b180ac07ecf37848b317fa6ce436e4b = $(`<div id="html_6b180ac07ecf37848b317fa6ce436e4b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #11</b><br>         <b style="font-size:13px;">Paciente Camila Oliveira - Ipiranga</b><br>         <span style="color: gray;">Pós-Parto</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 9h às 17h<br>         📦 Suprimentos: 1<br>                  <i style="font-size:11px; color:#555;">7 dias pós-parto. Verificar amamentação, cicatriz e sinais de baby blues.</i>     </div>     </div>`)[0];
+                popup_ebde49208b6997b3e31d802f1aec761f.setContent(html_6b180ac07ecf37848b317fa6ce436e4b);
+            
+        
+
+        marker_394aef232302c9431b9f5ee068b0c326.bindPopup(popup_ebde49208b6997b3e31d802f1aec761f)
+        ;
+
+        
+    
+    
+            marker_394aef232302c9431b9f5ee068b0c326.bindTooltip(
+                `<div>
+                     #11 — Paciente Camila Oliveira - Ipiranga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_394aef232302c9431b9f5ee068b0c326.setIcon(icon_1ecd44b786290e77f650ba5a0d8717b6);
+            
+    
+            var marker_66d183447cc87edb0824d792d7d6f714 = L.marker(
+                [-23.587600000000002, -46.6062],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_6f1d7a7688b3a09875e712ddee2518f0 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e11\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_66d183447cc87edb0824d792d7d6f714.setIcon(div_icon_6f1d7a7688b3a09875e712ddee2518f0);
+            
+    
+            var marker_69d2a55a3b7519da53ad4e052041421b = L.marker(
+                [-23.6183, -46.6289],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_8185df9288da73c1e3902fd4f7bccafc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1346c26245efba9a25c009ab79bf6c85 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_9461e56215d67afc17daab7e3f8c85ad = $(`<div id="html_9461e56215d67afc17daab7e3f8c85ad" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #12</b><br>         <b style="font-size:13px;">Paciente Tatiane Gomes - Saúde</b><br>         <span style="color: gray;">Pós-Parto</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 9h às 15h<br>         📦 Suprimentos: 2<br>                  <i style="font-size:11px; color:#555;">10 dias pós-parto gemelar. Apoio intensivo à amamentação.</i>     </div>     </div>`)[0];
+                popup_1346c26245efba9a25c009ab79bf6c85.setContent(html_9461e56215d67afc17daab7e3f8c85ad);
+            
+        
+
+        marker_69d2a55a3b7519da53ad4e052041421b.bindPopup(popup_1346c26245efba9a25c009ab79bf6c85)
+        ;
+
+        
+    
+    
+            marker_69d2a55a3b7519da53ad4e052041421b.bindTooltip(
+                `<div>
+                     #12 — Paciente Tatiane Gomes - Saúde
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69d2a55a3b7519da53ad4e052041421b.setIcon(icon_8185df9288da73c1e3902fd4f7bccafc);
+            
+    
+            var marker_68baa86ba5ecd05f271863899196983a = L.marker(
+                [-23.616300000000003, -46.6289],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_66adab01797d98dc587768e9842a1805 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e12\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_68baa86ba5ecd05f271863899196983a.setIcon(div_icon_66adab01797d98dc587768e9842a1805);
+            
+    
+            var marker_3c4d875573e95789c87ce5bd3f4e33ce = L.marker(
+                [-23.6441, -46.6468],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_672485cc978eae5d510c86e2355e06bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfbfa01705eca7597483b648ccf4d12d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_3129a9b775d2c9544b23f0afc05ff72c = $(`<div id="html_3129a9b775d2c9544b23f0afc05ff72c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #13</b><br>         <b style="font-size:13px;">Paciente Larissa Pereira - Jabaquara</b><br>         <span style="color: gray;">Pós-Parto</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 10h às 18h<br>         📦 Suprimentos: 2<br>                  <i style="font-size:11px; color:#555;">15 dias pós-parto cesárea. Curativo e orientações sobre higiene da incisão.</i>     </div>     </div>`)[0];
+                popup_bfbfa01705eca7597483b648ccf4d12d.setContent(html_3129a9b775d2c9544b23f0afc05ff72c);
+            
+        
+
+        marker_3c4d875573e95789c87ce5bd3f4e33ce.bindPopup(popup_bfbfa01705eca7597483b648ccf4d12d)
+        ;
+
+        
+    
+    
+            marker_3c4d875573e95789c87ce5bd3f4e33ce.bindTooltip(
+                `<div>
+                     #13 — Paciente Larissa Pereira - Jabaquara
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c4d875573e95789c87ce5bd3f4e33ce.setIcon(icon_672485cc978eae5d510c86e2355e06bd);
+            
+    
+            var marker_b661b3cce898a1d0b394c4c3e07a26f4 = L.marker(
+                [-23.642100000000003, -46.6468],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_8ac576dbfee56ac628dcf3a7894c0a06 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e13\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_b661b3cce898a1d0b394c4c3e07a26f4.setIcon(div_icon_8ac576dbfee56ac628dcf3a7894c0a06);
+            
+    
+            var marker_5751dd1250038ff5ac307b03674b129e = L.marker(
+                [-23.6272, -46.6672],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_045397c8ee88f583fbb67bff0f9177a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f65ca37a0342b3cebcb6bf1dbceadcb = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7211730eb0e52277bf65f4014818ecf9 = $(`<div id="html_7211730eb0e52277bf65f4014818ecf9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #14</b><br>         <b style="font-size:13px;">Paciente Priscila Mendes - Campo Belo</b><br>         <span style="color: gray;">Pós-Parto</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 11h às 19h<br>         📦 Suprimentos: 1<br>                  <i style="font-size:11px; color:#555;">30 dias pós-parto. Consulta de retorno e coleta para exame.</i>     </div>     </div>`)[0];
+                popup_4f65ca37a0342b3cebcb6bf1dbceadcb.setContent(html_7211730eb0e52277bf65f4014818ecf9);
+            
+        
+
+        marker_5751dd1250038ff5ac307b03674b129e.bindPopup(popup_4f65ca37a0342b3cebcb6bf1dbceadcb)
+        ;
+
+        
+    
+    
+            marker_5751dd1250038ff5ac307b03674b129e.bindTooltip(
+                `<div>
+                     #14 — Paciente Priscila Mendes - Campo Belo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5751dd1250038ff5ac307b03674b129e.setIcon(icon_045397c8ee88f583fbb67bff0f9177a6);
+            
+    
+            var marker_1b69f4889ac0e8674e7c6f811b23b415 = L.marker(
+                [-23.6252, -46.6672],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_20c890607789d985fec19781446a8c66 = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e14\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_1b69f4889ac0e8674e7c6f811b23b415.setIcon(div_icon_20c890607789d985fec19781446a8c66);
+            
+    
+            var marker_30a5a3bbce997766bc0f3321f6e01858 = L.marker(
+                [-23.615, -46.6918],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var icon_041ff8e16495321e28a56aef23c76c3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d8d8b1ffeefff947906c6a7bfbc4c4c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_20c7f3d853eafd0000788daf2a195c89 = $(`<div id="html_20c7f3d853eafd0000788daf2a195c89" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 220px;">         <b>Parada #15</b><br>         <b style="font-size:13px;">Paciente Marina Santos - Brooklin</b><br>         <span style="color: gray;">Pós-Parto</span><br>         <hr style="margin:4px 0">         ⏰ Janela: 8h às 16h<br>         📦 Suprimentos: 1<br>                  <i style="font-size:11px; color:#555;">21 dias pós-parto. Acompanhamento nutricional e vacinação do recém-nascido.</i>     </div>     </div>`)[0];
+                popup_4d8d8b1ffeefff947906c6a7bfbc4c4c.setContent(html_20c7f3d853eafd0000788daf2a195c89);
+            
+        
+
+        marker_30a5a3bbce997766bc0f3321f6e01858.bindPopup(popup_4d8d8b1ffeefff947906c6a7bfbc4c4c)
+        ;
+
+        
+    
+    
+            marker_30a5a3bbce997766bc0f3321f6e01858.bindTooltip(
+                `<div>
+                     #15 — Paciente Marina Santos - Brooklin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30a5a3bbce997766bc0f3321f6e01858.setIcon(icon_041ff8e16495321e28a56aef23c76c3a);
+            
+    
+            var marker_ce310501662f4c236e9d6e9db0cc7d6a = L.marker(
+                [-23.613, -46.6918],
+                {
+}
+            ).addTo(map_e4c705412468ecb666efdb7499260c09);
+        
+    
+            var div_icon_1886b87c94b1e1bdfc51e0e5e44584fe = L.divIcon({
+  "html": "\n                    \u003cdiv style=\"\n                        font-size: 10px;\n                        font-weight: bold;\n                        color: #2c3e50;\n                        background: white;\n                        border: 1px solid #ccc;\n                        border-radius: 50%;\n                        width: 18px;\n                        height: 18px;\n                        text-align: center;\n                        line-height: 18px;\n                        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);\n                    \"\u003e15\u003c/div\u003e\n                    ",
+  "iconSize": [18, 18],
+  "iconAnchor": [9, 9],
+  "className": "empty",
+});
+        
+    
+                marker_ce310501662f4c236e9d6e9db0cc7d6a.setIcon(div_icon_1886b87c94b1e1bdfc51e0e5e44584fe);
+            
+</script>
+</html>
